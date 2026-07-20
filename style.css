@@ -1,7 +1,13 @@
+@font-face {
+    font-family: Product sans;
+    src: url(fonts/Product\ Sans\ Bold.ttf)
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: 0;
+    font-family: Product Sans;
 }
 
 html,
@@ -47,6 +53,10 @@ body::-webkit-scrollbar {
     gap: 50px;
 }
 
+.Banner img {
+    width: 50px;
+}
+
 .Banner {
     display: flex;
     align-items: center;
@@ -59,10 +69,6 @@ body::-webkit-scrollbar {
 .Banner h1 {
     font-size: 25vw;
     color: #fff;
-}
-
-.Banner img {
-    width: 50px;
 }
 
 #fanta {
@@ -89,8 +95,8 @@ body::-webkit-scrollbar {
 
 #folha {
     position: absolute;
-    top: 10%;
-    left: 10%;
+    top: 6%;
+    left: 0%;
     width: 18%;
     transform: rotate(60deg);
 }
