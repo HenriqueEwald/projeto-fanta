@@ -57,8 +57,12 @@ body::-webkit-scrollbar {
 }
 
 .Banner h1 {
-    font-size: 25px;
+    font-size: 25vw;
     color: #fff;
+}
+
+.Banner img {
+    width: 50px;
 }
 
 #fanta {
@@ -92,6 +96,14 @@ body::-webkit-scrollbar {
 }
 
 #folha2 {
+    position: absolute;
+    top: 70%;
+    left: 80%;
+    width: 12%;
+    transform: rotate(-90deg);
+}
+
+#folha3 {
     position: absolute;
     width: 20%;
     top:10%;
